@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F7;
+}
+.side_img{
+    float: left;
+}
+
+.side_img img{
+    width: 500px;
+    height: auto;
+}
+
+.container{
+    /* background-color: rgb(189, 189, 189); */
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.container .logo img{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    
+}
+
+.container .login{
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: 600;
+    color:#43425D;
+    margin-bottom: 30px;
+}
+
+.container .form input{
+    font-family: sans-serif;
+    width: 450px;
+    padding: 30px 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px rgb(206, 206, 206);
+    font-size: 18pt;
+    outline: 0;
+}
+
+.container .form input[type=text]:hover{
+    transform: scale(1.1);
+}
+
+.container .form input[type=password]:hover{
+    transform: scale(1.1);
+}
+
+.container .form input[type=submit]{
+    font-family: sans-serif;
+    width: 230px;
+    border-radius: 70px;
+    color: white;
+    background-color: #5231BC;
+    font-weight: bold;
+}
+
+.container .form input[type=submit]:hover{
+    color: #5231BC;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container .footer{
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    margin-top: 25px;
+    color:#43425D;
+}
+.container .footer .forgot-pass{
+    margin-bottom: 18px;
+}
+
+.container .footer .forgot-pass a{
+    color: #5231BC;
+    text-decoration: none;
+}
+
+.container .footer .forgot-pass a:hover{
+    color: red;
+}
+
+.container .footer .signup  a{
+    color: #5231BC;
+    text-decoration: none;
+}
+
+.container .footer .signup  a:hover{
+    color: red;
+}
+
+.error-msg{
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: right;
+    margin-right: 270px;
+    color: red;
+    font-weight: bold;
+}
+
+.bottom{
+    margin-right: 0px;
+    text-align: center;
+}

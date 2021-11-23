@@ -1,0 +1,92 @@
+body {
+    background-color: #f0f0f7;
+    margin: 0;
+}
+.text {
+    margin-left: 180px;
+}
+
+h2 {
+    margin: 10px 0px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #5231bc;
+    font-size: 22pt;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.container form input {
+    font-family: sans-serif;
+    width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px rgb(206, 206, 206);
+    font-size: 16pt;
+    outline: 0;
+}
+
+.container form input:hover {
+    transform: scale(1.1);
+}
+.container form input[type="submit"] {
+    width: 170px;
+    color: white;
+    background-color: #5231bc;
+    padding: 10px 15px;
+}
+.container form input[type="submit"]:hover {
+    color: #5231bc;
+    background-color: white;
+    cursor: pointer;
+    transform: none;
+}
+
+.container form input[type="radio"] {
+    padding: 5px 0px;
+    width: 20px;
+    margin-top: 0px;
+}
+.text {
+    float: left;
+    overflow: hidden;
+}
+
+.radio {
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+
+.gender {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+span {
+    margin-right: 20px;
+}
+
+.footer {
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #5231bc;
+}
+
+.footer a:hover {
+    color: red;
+}

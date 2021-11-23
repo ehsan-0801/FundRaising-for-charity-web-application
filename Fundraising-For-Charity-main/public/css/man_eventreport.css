@@ -1,0 +1,178 @@
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"); */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+a {
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    background-color: #5231bc;
+}
+.gap {
+    margin: 70px 0px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    background: #5231bc;
+}
+
+.sidebar .text {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.sidebar ul {
+    background: #6600ff;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+}
+.sidebar ul li {
+    border-bottom: 1px solid rgba(255, 255, 255);
+}
+.sidebarav ul li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.sidebar ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+
+.sidebar ul li a:hover {
+    color: cyan;
+    background: #000080;
+    border-left-color: cyan;
+}
+.sidebar ul ul {
+    position: static;
+    display: none;
+    list-style-type: none;
+}
+.sidebar ul .events-show.show {
+    display: block;
+}
+.sidebar ul .donors-show.show1 {
+    display: block;
+}
+.sidebar ul .org-show.show2 {
+    display: block;
+}
+.sidebar ul .cal-show.show3 {
+    display: block;
+}
+.sidebar ul ul li {
+    border-bottom: none;
+}
+.sidebar ul ul li a {
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-left: 20px;
+}
+.sidebar ul ul li a span {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+}
+.sidebar ul li a span:rotate {
+    transform: translateY(-50%) rotate(-180deg);
+}
+.card {
+    margin: 25px 300px;
+    background-color: #b1d8d8;
+    width: 25%;
+    height: 20 0px;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px #575252;
+    opacity: 1;
+}
+
+.card p {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+.card .title {
+    margin-top: 20px;
+    font-size: 18pt;
+    color: #12719cb0;
+    background: #e6e6e6;
+}
+.card .status {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.card .event-info {
+    color: black;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #12719cb0;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 32px;
+    color: rgb(216, 210, 210);
+    margin: 20px auto;
+}
+
+.card a:hover {
+    background-color: white;
+    color: #12719cb0;
+    border: 2px solid #12719cb0;
+}
+.event_report{
+    background: rgb(99, 156, 175);
+    margin-left: 60px ;
+
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #25d8df;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: #25d8df;
+    border: 2px solid #25d8df;
+}

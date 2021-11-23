@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+a {
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    background-color: #5231bc;
+}
+.gap {
+    margin: 70px 0px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    background: #5231bc;
+}
+
+.sidebar .text {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.card {
+    background-color: rgb(128, 122, 122);
+    width: 25%;
+    height: 61 0px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    margin: 25px 55px;
+    opacity: 1;
+}
+
+.card p {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+.card .title {
+    margin-top: 20px;
+    font-size: 18pt;
+    color: #05642d;
+}
+.card .status {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.card .status span {
+    color: #05642d;
+    padding: 0px 10px;
+}
+
+.card .card-text {
+    color: black;
+    text-align: center;
+}
+
+.card .donate-now {
+    width: 120px;
+    height: 40px;
+    background-color: #05642d;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 32px;
+}
+.add-btn {
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #165a49;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 32px;
+    color: white;
+    /* margin-top: 20px; */
+    margin: 20px auto;
+}
+.add-btn:hover {
+    background-color: white;
+    color: #165a49;
+    border: 2px solid #165a49;
+}
+.card-arc {
+    background-color: rgb(128, 122, 122);
+    width: 25%;
+    height: 61 0px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    margin: 25px 60px;
+    opacity: 1;
+}
+
+.card-arc p {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+.card-arc .title {
+    margin-top: 20px;
+    font-size: 18pt;
+    color: #571409;
+}
+.card .card-arc-status {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.card-arc .card-arc-status span {
+    color: #571409;
+    padding: 0px 10px;
+}
+
+.card-arc .card-arc-text {
+    color: black;
+    text-align: center;
+}
+
+.card .donate-now {
+    width: 120px;
+    height: 40px;
+    background-color: #571409;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 32px;
+}
+.add-arc-btn {
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #b41212;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 32px;
+    color: white;
+    /* margin-top: 20px; */
+    margin: 20px auto;
+}
+.add-arc-btn:hover {
+    background-color: white;
+    color: #b41212;
+    border: 2px solid #b41212;
+}
